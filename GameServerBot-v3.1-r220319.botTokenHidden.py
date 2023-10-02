@@ -673,8 +673,5 @@ async def on_message(message):
 """) #<< 대상 메시지의 채널에 전송
 '''
 
-env = os.environ
-print(env['PATH']) 
 
-
-#client.run(fs.read(".\\botToken.txt"))
+client.run(fs.read("botToken.txt"))
