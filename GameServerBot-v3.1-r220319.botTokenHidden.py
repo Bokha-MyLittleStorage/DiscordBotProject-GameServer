@@ -1,4 +1,4 @@
-import fs
+import fs.fs as fs
 import asyncio, discord
 import random, time, pickle
 import subprocess
