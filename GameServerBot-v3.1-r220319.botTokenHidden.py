@@ -1,6 +1,9 @@
-import fs.fs as fs
+import fs
 import asyncio, discord
 import random, time, pickle
+import subprocess
+import concurrent.futures
+import os
 
 '''
 def integrateAsList(target):
@@ -670,4 +673,8 @@ async def on_message(message):
 """) #<< 대상 메시지의 채널에 전송
 '''
 
-client.run(fs.read(".\\botToken.txt"))
+env = os.environ
+print(env['PATH']) 
+
+
+#client.run(fs.read(".\\botToken.txt"))

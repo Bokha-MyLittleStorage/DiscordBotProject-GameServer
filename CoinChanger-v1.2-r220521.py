@@ -1,7 +1,7 @@
 from random import randint
 from time import sleep
 import math
-import fs.fs as fs
+import fs
 
 def coinRefresh():
     coinList = fs.read(".\dataCoin\_coinList.txt", encoding='euc-kr').split('\r\n')
